@@ -106,6 +106,7 @@ a {
     box-sizing: border-box;
     overflow: hidden;
     display: block;
+    position: relative;
 }   
 
 .below-content-3 a li img {
@@ -155,7 +156,45 @@ a {
     font-size: 18px;
 }
 
+.buy-cart {
+    bottom: -45px;
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.25s ease-in-out;
+}
 
+.buy-cart .cart {
+    width: 25%;
+    height: 100%;
+    color: rgb(34, 139, 34);
+    background-color: #fff;
+    border: 1px solid rgb(34, 139, 34);
+    box-sizing: border-box;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-cart .buy {
+    width: 74%;
+    height: 100%;
+    color: #fff;
+    background-color: rgb(34, 139, 34);
+    border: 1px solid rgb(34, 139, 34);
+    box-sizing: border-box;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* set layout bottom-centent-3 */
 .bottom-content-3 {
     width: 1200px;
     height: auto;
@@ -218,23 +257,13 @@ a {
 
 
 /* set hover transform for control pointer below-content-2*/
-.pic-content-3-hover-1:hover li img {
+.pic-content-3-hover:hover li img {
     transform: scale(1.1);
 }
 
-.pic-content-3-hover-2:hover li img {
-    transform: scale(1.1);
-}
 
-.pic-content-3-hover-3:hover li img {
-    transform: scale(1.1);
-}
-
-.pic-content-3-hover-4:hover li img {
-    transform: scale(1.1);
-}
-
-.pic-content-3-hover-5:hover li img {
-    transform: scale(1.1);
+/* set hover buy and cart  */
+.pic-content-3-hover:hover .buy-cart {
+    bottom: 0;
 }
 
