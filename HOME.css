@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* css content-2 */
+.content-2 {
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    border-top: 1px solid rgb(34, 139, 34);
+}
+
+.top-content-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-content-2 h1, h3 {
+    margin: 0;
+    color: rgb(34, 139, 34);
+}
+
+a {
+    text-decoration: none;
+}
+
+.below-content-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.container-item-content-2 {
+    width: 170px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.container-item-content-2 li {
+    list-style-type: none;
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.container-item-content-2 img {
+    width: 100%;
+    height: auto;
+}
+.container-item-content-2 h3 {
+    color: #000;
+    width: 100%;
+    height: auto;
+    font-size: 17px;
+    text-align: center;
+    opacity: 80%;
+    margin-top: 20px;
+}
+
+/* css content-3 */
+.content-3 {
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+    border-top: 1px solid rgb(34, 139, 34);
+}
+
+.top-content-3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-content-3 h1, h3 {
+    margin: 0;
+    color: rgb(34, 139, 34);
+}
+
+.below-content-3 {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.below-content-3 a {
+    width: 200px;
+    height: auto;
+}
+
+.below-content-3 a li {
+    list-style-type: none;
+    width: 100%;
+    height: 250px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+}   
+
+.below-content-3 a li img {
+    width: 100%;
+    height: 100%;
+}
+
+/* set transition pic */
+.below-content-3 a li img {
+    transition: transform 0.5s ease;
+}
+
+.below-content-3 a .book-name-price {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.book-name-price h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+}
+
+.book-name-price h3, h4 {
+    margin: 0;
+}
+
+.below-content-3 .book-name-price .price-book {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.below-content-3 .book-name-price .price-book del {
+    margin-left: 15px;
+    color: #000;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.below-content-3 .book-name-price .price-book h3 {
+    color: rgb(34, 139, 34);
+    font-size: 18px;
+}
+
+
+.bottom-content-3 {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.left-content-3 {
+    width: 40%;
+    height: auto;
+}
+
+.left-content-3 h1 {
+    margin: 0;
+    color: rgb(34, 139, 34);
+    margin-bottom: 10px;
+}
+
+.left-content-3 i {
+    margin: 0;
+    color: rgb(34, 139, 34);
+    font-weight: bold;
+}
+
+.left-content-3 p {
+    margin: 0;
+    margin-top: 30px;
+    text-align: justify;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+
+.left-content-3 a h5 {
+    margin: 0;
+    margin-top: 50px;
+    width: 170px;
+    height: 45px;
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(34, 139, 34);
+    border: 1px solid rgb(34, 139, 34);
+}
+
+.bottom-content-3 img {
+    width: 50%;
+    height: auto;
+}
+
+
+
+/* hover */
+/* seen-more top-content-2 */
+
+
+
+/* set hover transform for control pointer below-content-2*/
+.pic-content-3-hover-1:hover li img {
+    transform: scale(1.1);
+}
+
+.pic-content-3-hover-2:hover li img {
+    transform: scale(1.1);
+}
+
+.pic-content-3-hover-3:hover li img {
+    transform: scale(1.1);
+}
+
+.pic-content-3-hover-4:hover li img {
+    transform: scale(1.1);
+}
+
+.pic-content-3-hover-5:hover li img {
+    transform: scale(1.1);
+}
+
