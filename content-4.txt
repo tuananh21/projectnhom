@@ -96,6 +96,7 @@ a {
     text-align: center;
     font-size: 15px;
     color: #000;
+    transition: color 0.3s ease;
 }
 
 .book-name-price h3, h4 {
@@ -176,6 +177,10 @@ a {
     transform: scale(1.1);
 }
 
+/* set hover color book-name-price h3 */
+.book-name-price:hover h3 {
+    color: rgb(34, 139, 34);
+}
 
 /* set hover buy and cart  */
 .pic-content-3-hover:hover .buy-cart {
