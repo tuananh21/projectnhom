@@ -1,0 +1,146 @@
+HTML
+    <!-- bottom content 4 -->
+        <div class="bottom-content-4">
+            <a href="" class="click-content-4-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/mot-ngay-trong-doi-ivan-denisovich-01-e1710382608466.jpg?v=1710382664393" alt="MỘT NGÀY TRONG ĐỜI IVAN DENISOVICH" title="MỘT NGÀY TRONG ĐỜI IVAN DENISOVICH">
+                </li>
+                <div class="infor-book-content-4">
+                    <p class="name-book-content-4">MỘT NGÀY TRONG ĐỜI IVAN DENISOVICH</p>
+                    <p>Xem thêm</p>
+                </div>
+            </a>
+            <a href="" class="click-content-4-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/hoi-dap-cung-em-tuong-lai-se-the-nao-c-04.jpg?v=1710382343007" alt="HỎI ĐÁP CÙNG EM - TƯƠNG LAI SẼ THẾ NÀO?" title="HỎI ĐÁP CÙNG EM - TƯƠNG LAI SẼ THẾ NÀO?"></img>
+                </li>
+                <div class="infor-book-content-4">
+                    <p class="name-book-content-4">HỎI ĐÁP CÙNG EM - TƯƠNG LAI SẼ THẾ NÀO?</p>
+                    <p>Xem thêm</p>
+                </div>
+            </a>
+            <a href="" class="click-content-4-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/meo-chien-binh-thoi-khac-tam-toi-01-e1710382055163.jpg?v=1710382063447" alt="MÈO CHIẾN BINH 6 - THỜI KHẮC TĂM TỐI" title="MÈO CHIẾN BINH 6 - THỜI KHẮC TĂM TỐI">
+                </li>
+                <div class="infor-book-content-4">
+                    <p class="name-book-content-4">MÈO CHIẾN BINH 6 - THỜI KHẮC TĂM TỐI</p>
+                    <p>Xem thêm</p>
+                </div>
+            </a>
+            <a href="" class="click-content-4-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/truoc-khi-chung-ta-noi-loi-chia-tay-01-e1709778991248.jpg?v=1709779093920" alt="TRƯỚC KHI CHÚNG TA NÓI LỜI CHIA TAY" title="TRƯỚC KHI CHÚNG TA NÓI LỜI CHIA TAY">
+                </li>
+                <div class="infor-book-content-4">
+                    <p class="name-book-content-4">TRƯỚC KHI CHÚNG TA NÓI LỜI CHIA TAY</p>
+                    <p>Xem thêm</p>
+                </div>
+            </a>
+            <a href="" class="click-content-4-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/tram-cam-va-ky-nang-tu-kiem-soat-tram-cam-01-e1709778785909.jpg?v=1709778898463" alt="TRẦM CẢM VÀ KỸ NĂNG TỰ KIỂM SOÁT TRẦM CẢM" title="TRẦM CẢM VÀ KỸ NĂNG TỰ KIỂM SOÁT TRẦM CẢM">
+                </li>
+                <div class="infor-book-content-4">
+                    <p class="name-book-content-4">TRẦM CẢM VÀ KỸ NĂNG TỰ KIỂM SOÁT TRẦM CẢM</p>
+                    <p>Xem thêm</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+CSS
+/* Content-4 */
+a {
+    text-decoration: none;
+}
+
+.content-4 {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1200px;
+    height: auto;
+    border-top:  1px solid rgb(34, 139, 34);
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.top-content-4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-content-4 h1 {
+    color: rgb(34, 139, 34);
+    margin: 0;
+}
+
+.bottom-content-4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.click-content-4-hover {
+    width: 18%;
+    height: auto;
+}
+
+.click-content-4-hover li {
+    list-style-type: none;
+    width: 100%;
+    height: 240px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.click-content-4-hover li img {
+    width: auto;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.infor-book-content-4 {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.infor-book-content-4 .name-book-content-4 {
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.infor-book-content-4 p {
+    display: flex;
+    justify-content: center;
+    color: rgb(34, 139, 34);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* set hover content book content 4 */
+.click-content-4-hover:hover li img {
+    transform: scale(1.1);
+}
+
+/* set hover color buy content 4 */
+.name-book-content-4:hover {
+    color: rgb(34, 139, 34);
+}
