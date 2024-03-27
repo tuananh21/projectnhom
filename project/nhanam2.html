@@ -3,24 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
     <link rel="stylesheet" href="reponsive.css">
-    <style>
-        .product {
-            background-color: red;
-        }
-
-        .product-detail {
-            background-color: blueviolet;
-        }
-
-        img {
-            border-radius: 5px;
-            width: auto !important;
-            max-height: 100%;
-            margin: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="style2.css">
     <title>Document</title>
 </head>
 <body>
@@ -29,14 +14,168 @@
             <div class="row">
                 <div class="product col l-5 m-12 c-12">
                     <div class="product-image">
-                        <img src="/img/khong-co-tuyet-vong-tren-instagram-01-e1710474202548.webp" alt="">
+                        <a href="">
+                            <img src="/img/khong-co-tuyet-vong-tren-instagram-01-e1710474202548.webp" alt="" class="item-image">
+                        </a>
                     </div>
                 </div>
                 <div class="product-detail col l-5 m-12 c-12">
-                    Test
+                    <h1 class="title-head">KHÔNG CÓ TUYỆT VỌNG TRÊN INSTAGRAM</h1>
+                    <div class="author">
+                        Tác giả: &nbsp;
+                        <a href="" class="text-transform">jeong jiwoo</a>
+                    </div>
+                    <div class="group-button">
+                        <div class="price">
+                            <div class="price-box">
+                                <span class="special-price">
+                                    <span class="product-price">123.250đ</span>
+                                </span>
+                                <span class="old-price">
+                                    <span class="product-price-old">145.000đ</span>
+                                    <span class="discount">-15%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-product">
+                            <div class="add-cart">
+                                <div class="custom-number">
+                                    <div class="btn-number">
+                                        <button class="btn-1" id="decreaseBtn" onclick="decrease()">-</button>
+                                        <div id="counter">1</div>
+                                        <button class="btn-1" id="increaseBtn" onclick="increase()">+</button>
+                                    </div>
+                                    <span style="padding-left: 5px; font-size: 16px; color: #777777;">Còn lại 199 trong kho</span>
+                                </div>
+                                <div class="btn-mua">
+                                    <button type="submit" class="btn-2 btn-add">Thêm vào giỏ hàng</button>
+                                    <button type="button" class="btn-2 btn-buy">Mua ngay</button>
+                                </div>
+                            </div>
+
+                            <div class="shop">
+                                <p style="padding: 0 15px 0 0;">Mua sách trên sàn TMĐT</p>
+                                <div class="social">
+                                    <a href="https://www.lazada.vn/shop/nha-nam-tphcm1632821525/" class="social-btn" target="_blank">
+                                        <img src="/img/lazada-icon.webp" alt="" class="social-icon">
+                                    </a>
+                                    <a href="https://shopee.vn/nhanam59" class="social-btn" target="_blank">
+                                        <img src="/img/shopee-icon.webp" alt="" class="social-icon">
+                                    </a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="child-content row">
+                <div class="col l-8 m-12 c-12">
+                    <h4 class="title-tab">Giới thiệu sách</h4>
+                    <div class="context">
+                        <div class="data">
+                            <div class="text">
+                                <p style="text-align: justify;">Mạng xã hội trong đó có Instagram, đang ngày trở thành một phần không thể thiếu của lối sống con người hiện đại. Không còn đơn thuần chỉ để giao tiếp và liên lạc, ngày càng nhiều người sử dụng mạng xã hội như một phương tiện nhạy bén để thể hiện bản thân hay quảng bá hình ảnh. Tuy nhiên những hình ảnh đẹp đẽ trên Instagram dường như đang tràn ra khỏi khung hình và xâm chiếm mọi mặt cuộc sống của chúng ta, ngày một mạnh mẽ và thô bạo. Chiêm ngưỡng thế giới rực rỡ mà người khác thuộc về một mặt ta không khỏi nhen nhóm hy vọng mình cũng được là một phần của những hình ảnh đó, mặt khác lại rơi vào hố sâu tuyệt vọng vì hiện thực khắc nghiệt trước mắt khiến điều đó gần như là bất khả.</p>
+                                <p style="text-align: justify;">Bắt nguồn từ nỗ lực lý giải khoảng cách kỳ quái giữa thế giới của những hình ảnh đẹp đẽ trong khoảnh khắc và hiện thực vô vọng trải dài ấy, Jeong Jiwoo dấn ngòi bút sâu hơn vào những vấn đề cố hữu nổi cộm trong xã hội hiện đại Hàn Quốc và có lẽ cũng không xa lạ với Việt Nam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-12 c-12">
+                    <div class="book-info">
+                        <h2 class="title-tab">Thông tin chi tiết</h2>
+                        <ul class="book-info-detail">
+                            <li>
+                                <span class="span-1">Tác giả</span>
+                                <span class="span-2">jeong jiwoo</span>
+                            </li>
+                            <li>
+                                <span class="span-1">Dịch giả</span>
+                                <span class="span-2">Vương Thúy Quỳnh Anh</span>
+                            </li>
+                            <li>
+                                <span class="span-1">Nhà xuất bản</span>
+                                <span class="span-2">Thông Tấn</span>
+                            </li>
+                            <li>
+                                <span class="span-1">Kích thước</span>
+                                <span class="span-2">Đang cập nhật</span>
+                            </li>
+                            <li>
+                                <span class="span-1">Số trang</span>
+                                <span class="span-2">Đang cập nhật</span>
+                            </li>
+                            <li>
+                                <span class="span-1">Ngày phát hành</span>
+                                <span class="span-2">2024</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="related-blog">
+                        <h2 class="title-tab">
+                            <a href="#" style="color: #228b22;">Giới thiệu sách Nhã Nam</a>
+                        </h2>
+                        <div class="blog-list">
+                            <div class="item">
+                                <div class="item-blog">
+                                    <a href="" class="thumb">
+                                        <img src="/img/seo-2.webp" alt="" class="img-blog">
+                                    </a>
+                                    <div class="content-blog">
+                                        <h3>
+                                            <a href="">5 bí quyết dưỡng ẩm đắt giá - Chăm sóc da hiệu quả ngay trong mùa đông</a>
+                                        </h3>
+                                        <span style="font-size: 14px; color: #7B7B7D;">Thứ Hai, 20/11/2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-blog">
+                                    <a href="" class="thumb">
+                                        <img src="/img/seo-1.webp" alt="" class="img-blog">
+                                    </a>
+                                    <div class="content-blog">
+                                        <h3>
+                                            <a href="">Khám phá bí mật làm thịt lợn quay bì giòn tại gia</a>
+                                        </h3>
+                                        <span style="font-size: 14px; color: #7B7B7D;">Thứ Bảy, 18/11/2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-blog">
+                                    <a href="" class="thumb">
+                                        <img src="/img/nha-nam-website-3154da6f-42a3-4ff9-b4c5-f7b217989147.webp" alt="" class="img-blog">
+                                    </a>
+                                    <div class="content-blog">
+                                        <h3>
+                                            <a href="">Những cuốn sách dành cho người hướng nội</a>
+                                        </h3>
+                                        <span style="font-size: 14px; color: #7B7B7D;">Thứ Năm, 09/11/2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item-blog">
+                                    <a href="" class="thumb">
+                                        <img src="/img/ban-do-cf.webp" alt="" class="img-blog">
+                                    </a>
+                                    <div class="content-blog">
+                                        <h3>
+                                            <a href="">Sự thật ám ảnh về loại cafe đắt nhất thế giới</a>
+                                        </h3>
+                                        <span style="font-size: 14px; color: #7B7B7D;">Thứ Sáu, 27/10/2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="script2.js">
+    </script>
 </body>
 </html>

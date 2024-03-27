@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.container {
+    padding: 0 10px;
+}
+
+.product {
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
+
+.item-image {
+    padding: 34px 98px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.author {
+    display: flex;
+    font-size: 16px;
+}
+
+.title-head {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.text-transform {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: rgb(36, 36, 255);
+}
+
+.price-box {
+    padding: 20px 0 15px;
+    border-bottom: solid 1px #ebebeb;
+    margin-bottom: 15px;
+}
+
+.special-price {
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+}
+
+.old-price {
+    margin-left: 10px;
+}
+
+.product-price-old{
+    font-size: 20px;
+    color: #777777;
+    text-decoration: line-through;
+}
+
+.discount {
+    margin-left: 15px;
+    background-color: red;
+    width: 49px;
+    height: 23px;
+    color: #fff;
+    line-height: 23px;
+    font-size: 12px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 15px;
+    position: relative;
+    top: -3px;
+    font-weight: bold;
+}
+
+.form-product {
+    margin-top: 10px;
+}
+
+.custom-number {
+    height: 32px;
+    margin-right: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btn-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#counter {
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 32px;
+    border: 1px solid black;
+}
+.btn-1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 10px;
+    height: 32px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+ #counter {
+    width: 35px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+ }
+
+.btn-mua {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.btn-2 {
+    width: 224px;
+    height: 65px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline;
+    border-radius: 5px;
+}
+
+.btn-add {
+    margin-right: 10px;
+    color: #228b22;
+    background-color: white;
+}
+
+.btn-add:hover {
+    background-color: #228b22;
+    color: white;
+    transition: 0.2s;
+}
+
+.btn-buy {
+    color: white;
+    background-color: #228b22;
+}
+
+.btn-buy:hover {
+    background-color: white;
+    color: #228b22;
+    transition: 0.2s;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+}
+
+.social-btn {
+    margin-right: 20px;
+}
+
+@keyframes rotate360 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.social-icon:hover {
+    animation: rotate360 0.2s linear 1;
+}
+
+.child-content {
+    margin-top: 70px;
+}
+
+.title-tab {
+    font-size: 20px;
+    color: #228b22;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+}
+
+.context {
+    margin-bottom: 40px;
+}
+
+.text {
+    font-size: 16px;
+    color: #3F3F40;
+}
+
+.book-info-detail {
+    border: solid 1px #BBBBBF;
+    padding: 15px 20px 5px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none outside;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.span-1,.span-2 {
+    width: 50%;
+}
+
+.span-2 {
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+.item {
+    border: solid 1px #bbbbbf;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 124.512px !important;
+}
+
+.thumb {
+    width: 196px;
+}
+
+.content-blog {
+    width: calc(100% - 196px);
+}
+
+.item-blog {
+    display: flex;
+}
+
+.img-blog {
+    width: 100%;
+    height: auto;
+}
+
+.content-blog {
+    padding: 10px 20px 15px;
+}
+
+h3 {
+    font-size: 14px; 
+    max-height: 38px; 
+    overflow: hidden;
+    margin-bottom: 9px;
+    margin-top: 0 !important;
+}
+
+a:hover{
+    color: #228b22;
+}
