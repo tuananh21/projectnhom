@@ -234,7 +234,7 @@ ul {
 
 li {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 10px;
     padding-left: 15px;
     position: relative;
@@ -479,7 +479,7 @@ a {
 
 
 footer {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .social-mk {
@@ -491,15 +491,6 @@ footer {
     height: 80px;
     align-items: center;
 }
-
-@keyframes rotate360 {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
 
 .social-btn {
     position: relative;
@@ -610,4 +601,8 @@ footer {
 .li-menu {
     margin-bottom: 12px;
     font-size: 14px;
+}
+
+.li-menu,.list-content {
+    padding-left: 0;
 }
