@@ -263,6 +263,7 @@ li {
 
 .content-blog {
     width: calc(100% - 196px);
+    padding: 10px 20px 15px;
 }
 
 .item-blog {
@@ -272,10 +273,6 @@ li {
 .img-blog {
     width: 100%;
     height: auto;
-}
-
-.content-blog {
-    padding: 10px 20px 15px;
 }
 
 h3 {
