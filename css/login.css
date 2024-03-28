@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    min-width: 500px
+}
+.theme_color{
+    color: #228b22;
+}
+a{
+    text-decoration: none;
+    color: initial;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-bottom: 2px solid #228b22;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+button{
+    padding: 10px;
+    background: none;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+.container{
+    align-items:center;
+}
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_content a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+}
+.dropdown_list a{
+    display: block;
+    font-weight: normal;
+    background-color: white;
+    padding: 12px 16px;
+    border-bottom:thin solid #cdcfdd;
+}
+header .fa-bars{
+    display: inline-block;
+    margin:0 10px;
+}
+a:hover{
+    color: #228b22;
+}
+.dropdown{
+    position: relative;
+}
+header .list::after{
+    font-family: "Font Awesome 5 Free";
+    content:"\f078";
+    padding:0 5px;
+    font-size: small;
+    color: grey;
+    transition: transform 0.3s ;
+    display: inline-block;
+}
+header .list:hover::after{
+    color: #228b22;
+    transform: rotate(-180deg);
+}
+header .dropdown:hover .dropdown_list,header .dropdown:hover .dropdown_table{
+    display: block;
+}
+.dropdown_list, .dropdown_table{
+    display: none;
+    position:absolute;
+    top: 30px;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.header_search{
+    border:1px solid #cdcfdd;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    width: calc(100% - 70px);
+}
+input{
+    margin:10px 0;
+    outline: none;
+}
+header input{
+    border: none;
+    width: 100%;
+}
+.icon{
+    margin:5px;
+}
+
+.item_counter_box{
+    background-color: #228b22;
+    position: absolute;
+    width:20px;
+    height:11px;
+    border-radius: 10px;
+    bottom: -6px;
+    right: -6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item_counter{
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0px 5px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0;
+    background-image: url(https://bizweb.dktcdn.net/100/363/455/themes/918830/assets/bg-breadcrumb.jpg?1704690471681);
+}
+nav i, nav{
+    font-size: small;
+    color: green;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button{
+    padding: 10px;
+    background: none;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+.login button{
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 5px;
+    background-color:#228b22;
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+    width: 100%;
+}
+.main_box{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c-12 .main_box{
+    flex-direction: column;
+    /* align-items: center; */
+}
+.c-12 .login{
+    width: 100%;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.login{
+    border: 1px solid #228b22;
+    padding: 30px;
+    width:calc(100% - 290px);
+}
+
+h3{
+    margin-top: 0;
+}
+.login h3{
+    color: #228b22;
+}
+.member_benefit{
+    background-color: #228b22;
+    color: white;
+    min-width:290px;
+    padding: 30px;
+}
+.member_benefit p{
+    margin: 20px 0;
+}
+.member_benefit div{
+    margin: 40px 0;
+}
+.login input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cdcfdd;
+}
+input::placeholder{
+    color: #cdcfdd;
+}
+.login label{
+    font-weight: bold;
+    margin: 10px 0;
+}
+.login_passwordrecovery a{
+    border: 1px solid #228b22;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    color:#228b22;
+    font-weight: bold;
+    font-size: medium;
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+    width: 100%;
+}
+.login_passwordrecovery a:hover{
+    background-color: #228b22;
+    color: white;
+}
+
+.member_benefit a{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+}
+.member_benefit a:hover{
+    border: none;
+}
+.login_alt, .forget_password{
+    text-align: center;
+    margin: 20px 0;
+}
+.login_passwordrecovery{
+    display: none;
+}
