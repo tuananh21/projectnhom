@@ -12,6 +12,31 @@ body {
     padding: 0 10px;
 }
 
+.child-container-1 {
+    background-image: url(https://bizweb.dktcdn.net/100/363/455/themes/918830/assets/bg-breadcrumb.jpg?1704690471681);
+    background-size: cover;
+    margin-bottom: 20px;
+    padding: 5px 0;
+}
+
+.side-nav {
+    padding-left: 0;
+}
+
+.side-nav li {
+    display: inline;
+    padding-left: 0;
+}
+
+.sign {
+    padding: 0 3px;
+}
+
+.side-nav li strong {
+    color: #228b22;
+    text-transform: uppercase;
+}
+
 .product {
     border: 1px solid #ebebeb;
     border-radius: 5px;
