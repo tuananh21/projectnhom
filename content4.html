@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- link icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Image Zoom on Hover</title>
+<style>
+   .seen-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seen-more h3 {
+    color: rgb(34, 139, 34);
+    transition: color 0.3s ease;
+}
+
+.seen-more i {
+    color: rgb(34, 139, 34);
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* css content-3 */
+.content-3 {
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+    border-top: 1px solid rgb(34, 139, 34);
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.top-content-3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-content-3 h1, h3 {
+    margin: 0;
+    color: rgb(34, 139, 34);
+}
+
+/* below content 3 */
+.below-content-3 {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.below-content-3 a {
+    width: 200px;
+    height: auto;
+}
+
+.below-content-3 a li {
+    list-style-type: none;
+    width: 100%;
+    height: 250px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}   
+
+.below-content-3 a li img {
+    width: 100%;
+    height: 100%;
+}
+
+/* set transition pic */
+.below-content-3 a li img {
+    transition: transform 0.5s ease;
+}
+
+.below-content-3 a .book-name-price {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.book-name-price h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.book-name-price h3, h4 {
+    margin: 0;
+}
+
+.below-content-3 .book-name-price .price-book {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.below-content-3 .book-name-price .price-book del {
+    margin-left: 15px;
+    color: #000;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.below-content-3 .book-name-price .price-book h3 {
+    color: rgb(34, 139, 34);
+    font-size: 18px;
+}
+
+.buy-cart {
+    bottom: -45px;
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.25s ease-in-out;
+}
+
+.buy-cart .cart {
+    width: 25%;
+    height: 100%;
+    color: rgb(34, 139, 34);
+    background-color: #fff;
+    border: 1px solid rgb(34, 139, 34);
+    box-sizing: border-box;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    transition: color 0.3 ease;
+}
+
+.buy-cart .buy {
+    width: 74%;
+    height: 100%;
+    color: #fff;
+    background-color: rgb(34, 139, 34);
+    border: 1px solid rgb(34, 139, 34);
+    box-sizing: border-box;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    transition: color 0.3 ease;
+}
+
+/* hover */
+/* seen-more top-content-2 */
+.seen-more:hover h3 {
+    color:royalblue;
+}
+
+.pic-content-3-hover:hover li img {
+    transform: scale(1.1);
+}
+
+/* set hover color book-name-price h3 */
+.book-name-price:hover h3 {
+    color: rgb(34, 139, 34);
+}
+
+/* set hover buy and cart  */
+.pic-content-3-hover:hover .buy-cart {
+    bottom: 0;
+}
+
+/* set hover cart and buy */
+.cart:hover {
+    color: #fff;
+    background-color: rgb(34, 139, 34);
+}
+.buy:hover {
+    color: rgb(34, 139, 34);
+    background-color: #fff;
+}
+
+</style>
+</head>
+<body>
+    <div class="content-3">
+        <!-- top content 3-->
+        <div class="top-content-3">
+            <h1 style="font-size: 28px;">Có thể bạn cũng thích</h1>
+            <a href="" class="seen-more">
+                <h3 style="font-size: 15px;">Xem thêm</h3>
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+        <!-- below content 3 -->
+        <div class="below-content-3">
+            <a href="" class="pic-content-3-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/khong-co-tuyet-vong-tren-instagram-01-e1710474202548.jpg?v=1710474211207" alt="KHÔNG CÓ TUYỆT VỌNG TRÊN INSTAGRAM" title="KHÔNG CÓ TUYỆT VỌNG TRÊN INSTAGRAM"></img>
+                    <div class="buy-cart">
+                        <div class="cart"><i class="fa fa-shopping-bag"></i></div>
+                        <div class="buy">Mua ngay</div>
+                    </div>
+                </li>
+                <div class="book-name-price">
+                    <h3>KHÔNG CÓ TUYỆT VỌNG TRÊN INSTAGRAM</h3>
+                    <div class="price-book">
+                        <h3>123.250<u>đ</u></h3>
+                        <del>145.000<u>đ</u></del>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="pic-content-3-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/thuc-hanh-khac-ky-01-e1710211043565.jpg?v=1710211104237" alt="THỰC HÀNH KHẮC KỶ" title="THỰC HÀNH KHẮC KỶ"></img>
+                    <div class="buy-cart">
+                        <div class="cart"><i class="fa fa-shopping-bag"></i><i class="fas fs-shop"></i></div>
+                        <div class="buy">Mua ngay</div>
+                    </div>
+                </li>
+                <div class="book-name-price">
+                    <h3>THỰC HÀNH KHẮC KỶ</h3>
+                    <div class="price-book">
+                        <h3>91.800<u>đ</u></h3>
+                        <del>108.000<u>đ</u></del>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="pic-content-3-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/tieng-thet-cam-lang-01-e1710210545189.jpg?v=1710210558077" alt="TIẾNG THÉT CÂM LẶNG" title="TIẾNG THÉT CÂM LẶNG"></img>
+                    <div class="buy-cart">
+                        <div class="cart"><i class="fa fa-shopping-bag"></i><i class="fas fs-shop"></i></div>
+                        <div class="buy">Mua ngay</div>
+                    </div>
+                </li>
+                <div class="book-name-price">
+                    <h3>TIẾNG THÉT CÂM LẶNG</h3>
+                    <div class="price-book">
+                        <h3>212.500<u>đ</u></h3>
+                        <del>250.000<u>đ</u></del>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="pic-content-3-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/chang-trai-chuyen-kiep-va-co-gai-thien-tai-2-01-e1709006845284.jpg?v=1709006861020" alt="CHÀNG TRAI CHUYỂN KIẾP VÀ CÔ GÁI THIÊN TÀI TẬP 2" title="CHÀNG TRAI CHUYỂN KIẾP VÀ CÔ GÁI THIÊN TÀI TẬP 2"></img>
+                    <div class="buy-cart">
+                        <div class="cart"><i class="fa fa-shopping-bag"></i><i class="fas fs-shop"></i></div>
+                        <div class="buy">Mua ngay</div>
+                    </div>
+                </li>
+                <div class="book-name-price">
+                    <h3>CHÀNG TRAI CHUYỂN KIẾP VÀ CÔ GÁI THIÊN TÀI TẬP 2</h3>
+                    <div class="price-book">
+                        <h3>114.750<u>đ</u></h3>
+                        <del>135.000<u>đ</u></del>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="pic-content-3-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/tuoigiarucroe1708260434879.jpg?v=1708261482417" alt="TUỔI GIÀ RỰC RỠ" title="TUỔI GIÀ RỰC RỠ"></img>
+                    <div class="buy-cart">
+                        <div class="cart"><i class="fa fa-shopping-bag"></i><i class="fas fs-shop"></i></div>
+                        <div class="buy">Mua ngay</div>
+                    </div>
+                </li>
+                <div class="book-name-price">
+                    <h3>TUỔI GIÀ RỰC RỠ</h3>
+                    <div class="price-book">
+                        <h3>254.150<u>đ</u></h3>
+                        <del>299.000<u>đ</u></del>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

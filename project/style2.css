@@ -286,3 +286,328 @@ h3 {
 a:hover{
     color: #228b22;
 }
+
+.seen-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seen-more h3 {
+    color: rgb(34, 139, 34);
+    transition: color 0.3s ease;
+}
+
+.seen-more i {
+    color: rgb(34, 139, 34);
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* css content-3 */
+.content-3 {
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+    border-top: 1px solid rgb(34, 139, 34);
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.top-content-3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-content-3 h1, h3 {
+    margin: 0;
+    color: rgb(34, 139, 34);
+}
+
+/* below content 3 */
+.below-content-3 {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.below-content-3 a {
+    width: 200px;
+    height: auto;
+}
+
+.below-content-3 a li {
+    list-style-type: none;
+    width: 100%;
+    height: 250px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}   
+
+.below-content-3 a li img {
+    width: 100%;
+    height: 100%;
+}
+
+/* set transition pic */
+.below-content-3 a li img {
+    transition: transform 0.5s ease;
+}
+
+.below-content-3 a .book-name-price {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.book-name-price h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.book-name-price h3, h4 {
+    margin: 0;
+}
+
+.below-content-3 .book-name-price .price-book {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.below-content-3 .book-name-price .price-book del {
+    margin-left: 15px;
+    color: #000;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.below-content-3 .book-name-price .price-book h3 {
+    color: rgb(34, 139, 34);
+    font-size: 18px;
+}
+
+.buy-cart {
+    bottom: -45px;
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.25s ease-in-out;
+}
+
+.buy-cart .cart {
+    width: 25%;
+    height: 100%;
+    color: rgb(34, 139, 34);
+    background-color: #fff;
+    border: 1px solid rgb(34, 139, 34);
+    box-sizing: border-box;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    transition: color 0.3 ease;
+}
+
+.buy-cart .buy {
+    width: 74%;
+    height: 100%;
+    color: #fff;
+    background-color: rgb(34, 139, 34);
+    border: 1px solid rgb(34, 139, 34);
+    box-sizing: border-box;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    transition: color 0.3 ease;
+}
+
+/* hover */
+/* seen-more top-content-2 */
+.seen-more:hover h3 {
+    color:royalblue;
+}
+
+.pic-content-3-hover:hover li img {
+    transform: scale(1.1);
+}
+
+/* set hover color book-name-price h3 */
+.book-name-price:hover h3 {
+    color: rgb(34, 139, 34);
+}
+
+/* set hover buy and cart  */
+.pic-content-3-hover:hover .buy-cart {
+    bottom: 0;
+}
+
+/* set hover cart and buy */
+.cart:hover {
+    color: #fff;
+    background-color: rgb(34, 139, 34);
+}
+.buy:hover {
+    color: rgb(34, 139, 34);
+    background-color: #fff;
+}
+
+
+footer {
+    margin-top: 20px;
+}
+
+.social-mk {
+    background-color: #228b22;
+}
+
+.social {
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+@keyframes rotate360 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.social-btn {
+    position: relative;
+    margin-right: 20px;
+    width: 36px;
+    height: 36px;
+}
+
+.social-icon {
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+
+.social-icon:hover {
+    animation: rotate360 0.3s linear 1;
+}
+
+.email {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 80px;
+}
+
+.noti {
+    font-size: 15px;
+    color: white;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-transform: uppercase;
+}
+
+.mail-noti {
+    display: flex;
+    align-items: center;
+    width: 345px;
+    flex-flow: wrap;
+}
+
+.mail-form {
+    position: relative;
+    width: 100%;
+}
+
+.form-control {
+    height: 38px;
+    width: calc(100% - 84px);
+    padding: 0 90px 0 15px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+}
+
+.btn-submit {
+    position: absolute;
+    width: 84px;
+    height: 38px;
+    background-color: #37CD37;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius:0 3px 3px 0;
+}
+
+.first-footer {
+    padding-top: 34px;
+}
+
+.logo {
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.logo-title {
+    font-style: italic;
+    color: #228B22;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.list-1{
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.list-content {
+    display: flex; 
+    margin-bottom: 15px;
+}
+
+.title-menu {
+    text-transform: uppercase;
+    color: #228B22;
+    margin-top: 45px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.list-menu {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.li-menu {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
