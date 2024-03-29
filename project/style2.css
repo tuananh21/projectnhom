@@ -21,6 +21,8 @@ body {
 
 .side-nav {
     padding-left: 0;
+    z-index: 0;
+    position: relative;
 }
 
 .side-nav li {
@@ -631,4 +633,8 @@ footer {
 
 .li-menu,.list-content {
     padding-left: 0;
+}
+
+.icon-footer {
+    margin-right: 5px;
 }

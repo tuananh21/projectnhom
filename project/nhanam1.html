@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navi.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="reponsive.css">
+    <link rel="stylesheet" href="HOME.css">
     <link rel="icon" href="//bizweb.dktcdn.net/100/363/455/themes/918830/assets/favicon.png?1704690471681" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Nhan Nam</title>
+    <title>Nha Nam</title>
 </head>
 <body>
     <header>
         <div class="grid wide">
             <div class="container row">
                 <div class="col c-0 m-0 l-1">
-                    <a href="https://nhanam.vn/">
+                    <a href="nhanam1.html">
                         <img src="https://bizweb.dktcdn.net/100/363/455/themes/918830/assets/logo.png?1704690471681">
                     </a>
                 </div>
                 <div class="col c-0 m-6 l-0">
                     <div class="header_content" style="justify-content: flex-start;">
                         <i class="fa-solid fa-bars fa-2x theme_color"></i>
-                        <a href="https://nhanam.vn/">
+                        <a href="nhanam1.html">
                             <img src="https://bizweb.dktcdn.net/100/363/455/themes/918830/assets/logo.png?1704690471681">
                         </a>
                     </div>
@@ -32,11 +33,16 @@
                 <div class="col c-12 m-0 l-0">
                     <div class="header_content">
                         <i class="fa-solid fa-bars fa-2x theme_color"></i>
-                        <a class="header_content" href="https://nhanam.vn/">
+                        <a class="header_content" href="nhanam1.html">
                             <img src="https://bizweb.dktcdn.net/100/363/455/themes/918830/assets/logo.png?1704690471681">
                         </a>
                             <div class="header_content">
-                                <i class="fa-regular fa-user fa-lg icon"></i>
+                                <i class="fa-solid fa-magnifying-glass dropdown" >
+                                    <form class="header_search">
+                                        <input type="text" placeholder="Tìm kiếm..." required>
+                                        <button type="submit" class="fa-solid fa-magnifying-glass" ></button>
+                                    </form>            
+                                </i>
                                 <i class="fa-regular fa-bag-shopping fa-lg icon" style="position:relative;">
                                     <div class="item_counter_box">
                                         <div class="item_counter">0</div>
@@ -48,10 +54,10 @@
                 </div>
                 <div class="c-0 m-0 l-8">
                     <ul class="header_content">
-                        <li><a href="https://nhanam.vn/">Trang chủ</a></li>
+                        <li><a href="nhanam1.html">Trang chủ</a></li>
                         <li class="dropdown">
                             <a class="list" href="https://nhanam.vn/lien-he">Tin sách</a>
-                            <div class="dropdown_list">
+                            <div class="dropdown_list" style="min-width: 250px;">
                                 <a href="https://nhanam.vn/tin-nha-nam">Tin Nhã Nam</a>
                                 <a href="https://nhanam.vn/tin-nha-nam">Review sách của độc giả</a>
                                 <a href="https://nhanam.vn/tin-nha-nam">Review sách trên báo chí</a>
@@ -60,11 +66,83 @@
                         </li>
                         <li class="dropdown">
                             <a class="list" href="https://nhanam.vn/collections/all">Sách Nhã Nam</a>
+                            <div class="dropdown_table">
+                                <div class="tablecol">
+                                    <h3>
+                                        <a href="#">Hư cấu</a>
+                                        <div class="h3underline"></div>
+                                    </h3>
+                                    <a href="#">Văn học hiện đại</a>
+                                    <a href="#">Văn học kinh điển</a>
+                                    <a href="#">Văn học thiếu nhi</a>
+                                    <a href="#"> Lãng mạn</a>
+                                    <a href="#">Kỳ ảo</a>
+                                    <a href="#">Trinh thám - Kinh dị</a>
+                                    <a href="#">Khoa học Viễn tưởng</a>
+                                    <a href="#">Phiêu lưu ly kỳ</a>
+                                    <a href="#">Tản văn</a>
+                                    <a href="#">Truyện tranh (Graphic novel)</a>
+                                    <a href="#">Sách tranh (Picture book)</a>
+                                    <a href="#">Thơ - kịch</a>
+                                    <a href="#">Light novel</a>
+                                    <a href="#">Sách tô màu</a>
+                                    
+                                </div>
+                                <div class="tablecol">
+                                    <h3>
+                                        <a href="#">Phi hư cấu</a>
+                                        <div class="h3underline"></div>
+                                    </h3>
+                                    <a href="#">Triết học</a>
+                                    <a href="#">Sử học</a>
+                                    <a href="#">Khoa học</a>
+                                    <a href="#">Kinh doanh</a>
+                                    <a href="#">Kinh tế chính trị</a>
+                                    <a href="#">Kỹ năng </a>
+                                    <a href="#">Nghệ thuật</a>
+                                    <a href="#">Nuôi dạy con</a>
+                                    <a href="#">Tiểu luận - phê bình</a>
+                                    <a href="#">Tâm lý ứng dụng</a>
+                                    <a href="#">Tâm lý học</a>
+                                    <a href="#">Hồi ký</a>
+                                    <a href="#">Y học - Sức khỏe</a>
+                                    <a href="#">Tâm linh - Tôn giáo</a>
+                                    <a href="#">Kiến thức phổ thông</a>
+                                    <a href="#">Phong cách sống</a>
+                                </div>
+                                <div class="tablecol">
+                                    <h3>
+                                        <a href="#">Thiếu nhi</a>
+                                        <div class="h3underline"></div>
+                                    </h3>
+                                    <a href="#">0-5 tuổi</a>
+                                    <a href="#">6-8 tuổi</a>
+                                    <a href="#">9-12 tuổi</a>
+                                    <a href="#">13-15 tuổi</a>
+                                </div>
+                                <div class="tablecol">
+                                    <h3>
+                                        <a href="#">Phân loại khác</a>
+                                        <div class="h3underline"></div>
+                                    </h3>
+                                    <a href="#">Sách bán chạy</a>
+                                    <a href="#">Sách mới xuất bản</a>
+                                    <a href="#">Sách sắp xuất bản</a>
+                                    <a href="#">Sách được giải thưởng</a>
+                                    <a href="#">Sách pop-up, lift-the-flaps</a>
+                                    <a href="#">Nghiên cứu Việt Nam</a>
+                                    <a href="#">Việt Nam danh tác</a>
+                                    <a href="#">Tác giả Việt Nam</a>
+                                    <a href="#">Bản đặc biệt</a>
+                                    <a href="#">Phụ kiện - Quà tặng</a>
+                                </div>
+                            </div>
+                        
                         </li>
                         <li><a href="https://nhanam.vn/tac-gia">Tác giả</a></li>
                         <li class="dropdown">
                             <a class="list" href="https://nhanam.vn/cuoc-thi">Cuộc thi</a>
-                            <div class="dropdown_list">
+                            <div class="dropdown_list" style="min-width: 250px;">
                                 <a href="https://nhanam.vn/tin-nha-nam">AI ĐÓ ĐỌC CÙNG TA</a>
                             </div>
 
@@ -72,7 +150,7 @@
                         <li><a href="https://nhanam.vn/gioi-thieu">Về Nhã Nam</a></li>
                         <li class="dropdown">
                             <a class="list" href="https://nhanam.vn/lien-he">Liên hệ</a>
-                            <div class="dropdown_list">
+                            <div class="dropdown_list" style="min-width: 250px;">
                                 <a href="https://nhanam.vn/tin-nha-nam">Hệ thống hiệu sách</a>
                                 <a href="https://nhanam.vn/tin-nha-nam">Hệ thống phát hành</a>
                                 <a href="https://nhanam.vn/tin-nha-nam">Gửi thư cho Nhã Nam</a>
@@ -90,7 +168,13 @@
                             <input type="text" placeholder="Tìm kiếm..." required>
                             <button type="submit" class="fa-solid fa-magnifying-glass" ></button>
                         </form>
-                        <i class="fa-regular fa-user fa-lg icon"></i>
+                        <i class="fa-regular fa-user fa-lg icon dropdown">
+                            <div class="dropdown_list">
+                                <a href="login.html">Đăng nhập</a>
+                                <a href="register.html">Đăng ký</a>
+                            </div>
+
+                        </i>
                         <i class="fa-regular fa-bag-shopping fa-lg icon" style="position:relative;">
                             <div class="item_counter_box">
                                 <div class="item_counter">0</div>
@@ -106,7 +190,12 @@
                             <button type="submit" class="fa-solid fa-magnifying-glass"></button>
                         </form>
                         <div class="header_content">
-                        <i class="fa-regular fa-user fa-lg icon"></i>
+                            <i class="fa-regular fa-user fa-lg icon dropdown">
+                                <div class="dropdown_list">
+                                    <a href="../html/login.html">Đăng nhập</a>
+                                    <a href="../html/login.html">Đăng ký</a>
+                                </div>
+                            </i>
                         <i class="fa-regular fa-bag-shopping fa-lg icon" style="position:relative;">
                             <div class="item_counter_box">
                             <div class="item_counter">0</div>
@@ -131,7 +220,7 @@
                         <h3 class="one">
                             <a href="" class="a-title">Cơ hội gặp gỡ một trong những nhà văn Pháp đương đại nổi tiếng nhất</a>
                         </h3>
-                        <span style="display: inline-block; font-size: 14px; color: #7B7B7D;">Thứ 3, 12/03/2024</span>
+                        <span style="font-size: 14px; color: #7B7B7D;">Thứ 3, 12/03/2024</span>
                     </div>
                 </div>
                 <div class="col l-4 m-12 c-12">
@@ -142,8 +231,8 @@
                                     <img src="/img/seo-2.webp" alt="" class="img-blog">
                                 </a>
                                 <div class="content-blog-2">
-                                    <h3>
-                                        <a href="">5 bí quyết dưỡng ẩm đắt giá - Chăm sóc da hiệu quả ngay trong mùa đông</a>
+                                    <h3 style="margin-bottom: 10px;">
+                                        <a href="" title="5 bí quyết dưỡng ẩm đắt giá - Chăm sóc da hiệu quả ngay trong mùa">5 bí quyết dưỡng ẩm đắt giá - Chăm sóc da hiệu quả ngay trong mùa đông</a>
                                     </h3>
                                     <span style="font-size: 14px; color: #7B7B7D;">Thứ Hai, 20/11/2023</span>
                                 </div>
@@ -155,8 +244,8 @@
                                     <img src="/img/seo-1.webp" alt="" class="img-blog">
                                 </a>
                                 <div class="content-blog-2">
-                                    <h3>
-                                        <a href="">Khám phá bí mật làm thịt lợn quay bì giòn tại gia</a>
+                                    <h3 style="margin-bottom: 10px;">
+                                        <a href="" title="Khám phá bí mật làm thịt lợn quay bì giòn tại gia">Khám phá bí mật làm thịt lợn quay bì giòn tại gia</a>
                                     </h3>
                                     <span style="font-size: 14px; color: #7B7B7D;">Thứ Bảy, 18/11/2023</span>
                                 </div>
@@ -168,8 +257,8 @@
                                     <img src="/img/nha-nam-website-3154da6f-42a3-4ff9-b4c5-f7b217989147.webp" alt="" class="img-blog">
                                 </a>
                                 <div class="content-blog-2">
-                                    <h3>
-                                        <a href="">Những cuốn sách dành cho người hướng nội</a>
+                                    <h3 style="margin-bottom: 10px;">
+                                        <a href="" title="Những cuốn sách dành cho người hướng nội">Những cuốn sách dành cho người hướng nội</a>
                                     </h3>
                                     <span style="font-size: 14px; color: #7B7B7D;">Thứ Năm, 09/11/2023</span>
                                 </div>
@@ -181,8 +270,8 @@
                                     <img src="/img/ban-do-cf.webp" alt="" class="img-blog">
                                 </a>
                                 <div class="content-blog-2">
-                                    <h3>
-                                        <a href="">Sự thật ám ảnh về loại cafe đắt nhất thế giới</a>
+                                    <h3 style="margin-bottom: 10px;">
+                                        <a href="" title="Sự thật ám ảnh về loại cafe đắt nhất thế giới">Sự thật ám ảnh về loại cafe đắt nhất thế giới</a>
                                     </h3>
                                     <span style="font-size: 14px; color: #7B7B7D;">Thứ Sáu, 27/10/2023</span>
                                 </div>
@@ -194,6 +283,256 @@
             </div>
         </div>
     </div>
+
+    <div class="content-2">
+        <!-- top content 2-->
+        <div class="top-content-2">
+            <h1>Các tác giả</h1>
+            <a href="" class="seen-more">
+                <h3>Xem thêm</h3>
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+        <!-- below content 2-->
+        <div class="below-content-2">
+            <a href="" class="container-item-content-2">
+                <li><img src="https://bizweb.dktcdn.net/100/363/455/articles/du-6-au-8-avril-on-pourra-rencontrer-caryl-ferey-a-quais-du-polar-plus-jamais-seul-est-en-lice-pour-le-prix-polar-en-serie-photo-d-archives-pierre-augros-1522611099.jpeg?v=1705585948700" alt="Caryl Férey" title="Caryl Férey"></li>
+                <h3>Caryl Férey</h3>
+            </a>
+            <a href="" class="container-item-content-2">
+                <li><img src="https://bizweb.dktcdn.net/100/363/455/articles/a001157172-23.jpeg?v=1705927222763" alt="Urakami Tetsuya" title="Urakami Tetsuya"></li>
+                <h3>Urakami Tetsuya</h3>
+            </a>
+            <a href="" class="container-item-content-2">
+                <li><img src="https://bizweb.dktcdn.net/100/363/455/articles/lightman.jpeg?v=1705296925087" alt="Alan Lightman" title="Alan Lightman"></li>
+                <h3>Alan Lightman</h3>
+            </a>
+            <a href="" class="container-item-content-2">
+                <li><img src="https://bizweb.dktcdn.net/100/363/455/articles/perec.jpg?v=1705299179727" alt="Georges Perec" title="Georges Perec"></li>
+                <h3>Georges Perec</h3>
+            </a>
+            <a href="" class="container-item-content-2">
+                <li><img src="https://bizweb.dktcdn.net/100/363/455/articles/blank-author-3e2f8612-a184-47e9-bc7b-97528e3d8c32.jpg?v=1705288131493" alt="Lee Jin Song" title="Lee Jin Song"></li>
+                <h3>Lee Jin Song</h3>
+            </a>
+            <a href="" class="container-item-content-2">
+                <li><img src="https://bizweb.dktcdn.net/100/363/455/articles/blank-author-33728236-0ca7-4f4e-a265-ddcd14036f53.jpg?v=1705287921247" alt="Nhóm tư vấn Từ Mạn Mạn" title="Nhóm tư vấn Từ Mạn Mạn"></li>
+                <h3>Nhóm tư vấn Từ Mạn Mạn</h3>
+            </a>
+        </div>
+    </div>
+    <div class="content-3">
+        <!-- top content 3-->
+        <div class="top-content-3">
+            <h1>Sách mới</h1>
+            <a href="" class="seen-more">
+                <h3>Xem thêm</h3>
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+        <!-- below content 3 -->
+        <div class="below-content-3">
+            <a href="nhanam2.html" class="pic-content-3-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/khong-co-tuyet-vong-tren-instagram-01-e1710474202548.jpg?v=1710474211207" alt="KHÔNG CÓ TUYỆT VỌNG TRÊN INSTAGRAM" title="KHÔNG CÓ TUYỆT VỌNG TRÊN INSTAGRAM"></img>
+                    <div class="buy-cart">
+                        <div class="cart"><i class="fa fa-shopping-bag"></i></div>
+                        <div class="buy">Mua ngay</div>
+                    </div>
+                </li>
+                <div class="book-name-price">
+                    <h3>KHÔNG CÓ TUYỆT VỌNG TRÊN INSTAGRAM</h3>
+                    <div class="price-book">
+                        <h3>123.250<u>đ</u></h3>
+                        <del>145.000<u>đ</u></del>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="pic-content-3-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/thuc-hanh-khac-ky-01-e1710211043565.jpg?v=1710211104237" alt="THỰC HÀNH KHẮC KỶ" title="THỰC HÀNH KHẮC KỶ"></img>
+                    <div class="buy-cart">
+                        <div class="cart"><i class="fa fa-shopping-bag"></i><i class="fas fs-shop"></i></div>
+                        <div class="buy">Mua ngay</div>
+                    </div>
+                </li>
+                <div class="book-name-price">
+                    <h3>THỰC HÀNH KHẮC KỶ</h3>
+                    <div class="price-book">
+                        <h3>91.800<u>đ</u></h3>
+                        <del>108.000<u>đ</u></del>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="pic-content-3-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/tieng-thet-cam-lang-01-e1710210545189.jpg?v=1710210558077" alt="TIẾNG THÉT CÂM LẶNG" title="TIẾNG THÉT CÂM LẶNG"></img>
+                    <div class="buy-cart">
+                        <div class="cart"><i class="fa fa-shopping-bag"></i><i class="fas fs-shop"></i></div>
+                        <div class="buy">Mua ngay</div>
+                    </div>
+                </li>
+                <div class="book-name-price">
+                    <h3>TIẾNG THÉT CÂM LẶNG</h3>
+                    <div class="price-book">
+                        <h3>212.500<u>đ</u></h3>
+                        <del>250.000<u>đ</u></del>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="pic-content-3-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/chang-trai-chuyen-kiep-va-co-gai-thien-tai-2-01-e1709006845284.jpg?v=1709006861020" alt="CHÀNG TRAI CHUYỂN KIẾP VÀ CÔ GÁI THIÊN TÀI TẬP 2" title="CHÀNG TRAI CHUYỂN KIẾP VÀ CÔ GÁI THIÊN TÀI TẬP 2"></img>
+                    <div class="buy-cart">
+                        <div class="cart"><i class="fa fa-shopping-bag"></i><i class="fas fs-shop"></i></div>
+                        <div class="buy">Mua ngay</div>
+                    </div>
+                </li>
+                <div class="book-name-price">
+                    <h3>CHÀNG TRAI CHUYỂN KIẾP VÀ CÔ GÁI THIÊN TÀI TẬP 2</h3>
+                    <div class="price-book">
+                        <h3>114.750<u>đ</u></h3>
+                        <del>135.000<u>đ</u></del>
+                    </div>
+                </div>
+            </a>
+            <a href="" class="pic-content-3-hover">
+                <li>
+                    <img src="https://bizweb.dktcdn.net/thumb/large/100/363/455/products/tuoigiarucroe1708260434879.jpg?v=1708261482417" alt="TUỔI GIÀ RỰC RỠ" title="TUỔI GIÀ RỰC RỠ"></img>
+                    <div class="buy-cart">
+                        <div class="cart"><i class="fa fa-shopping-bag"></i><i class="fas fs-shop"></i></div>
+                        <div class="buy">Mua ngay</div>
+                    </div>
+                </li>
+                <div class="book-name-price">
+                    <h3>TUỔI GIÀ RỰC RỠ</h3>
+                    <div class="price-book">
+                        <h3>254.150<u>đ</u></h3>
+                        <del>299.000<u>đ</u></del>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    <!-- bottom content 3 -->
+    <div class="bottom-content-3">
+        <!-- left conntent 3 -->
+        <div class="left-content-3">
+            <h1>Nhã Nam</h1>
+            <i>Bởi vì sách là thế giới</i>
+            <p style="margin-bottom: 30px;">Nhã Nam, tên đầy đủ là Công ty Cổ phần Văn hóa và Truyền thông Nhã Nam, gia nhập thị trường sách Việt Nam vào tháng 2 năm 2005. Ngay từ cuốn sách đầu tiên, độc giả đã dành sự quan tâm và yêu mến cho một thương hiệu sách mới mẻ mang trong mình khát vọng góp phần tạo lập diện mạo mới cho xuất bản văn học tại Việt Nam.</p>
+            <a href="" class="hover-click-XemThem">
+                <h3>Xem thêm</h3>
+            </a>
+        </div>
+        <!-- right content 3 -->
+        <img src="https://bizweb.dktcdn.net/100/363/455/themes/918830/assets/banner-module-profile.jpg?1704690471681" alt="anh">
+    </div>
+
+    <!-- Content 4 -->
+    <div class="content-5">
+        <!-- top content 5 -->
+        <div class="top-content-5">
+            <h1>Sách Nhã Nam trên báo chí</h1>
+            <a href="" class="seen-more">
+                <h3>Xem thêm</h3>
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+        <!-- bottom content 5 -->
+        <div class="bottom-content-5">
+            <div>
+                <a href="">
+                    <img src="https://bizweb.dktcdn.net/100/363/455/articles/website-a-nh-da-i-die-n-ba-i-vie-t-12.png?v=1710848741370" alt="Gặp gỡ nhà văn Pháp Bernard Werber: Xã hội loài người chỉ 1/3 thật sự làm việc" title="Gặp gỡ nhà văn Pháp Bernard Werber: Xã hội loài người chỉ 1/3 thật sự làm việc">
+                    <p class="text-bottom-content-5">Gặp gỡ nhà văn Pháp Bernard Werber: Xã hội loài người chỉ 1/3 thật sự làm việc</p>
+                </a>
+                <p>Trò chuyện với độc giả Hà Nội vàp ngày 16/3 nhân chuyến thăm và giao lưu với độc giả ba...</p>
+                <p class="date-bottom-content-5">Thứ Ba, 19/03/2024</p>
+            </div>
+            <div>
+                <a href="">
+                    <img src="https://bizweb.dktcdn.net/100/363/455/articles/website-a-nh-da-i-die-n-ba-i-vie-t-7.png?v=1710232983947" alt="Độc giả Việt từng không mấy mặn mà với Xứ cát" title="Độc giả Việt từng không mấy mặn mà với Xứ cát">
+                    <p class="text-bottom-content-5">Độc giả Việt từng không mấy mặn mà với "Xứ cát"</p>
+                </a>
+                <p>"Xứ cát" không ngoại lệ với các sách khác thuộc dòng kinh điển của thể loại khoa học viễn tưởng,...</p>
+                <p class="date-bottom-content-5">Thứ Ba, 12/03/2024</p>
+            </div>
+            <div>
+                <a href="">
+                    <img src="https://bizweb.dktcdn.net/100/363/455/articles/website-a-nh-da-i-die-n-ba-i-vie-t-4.png?v=1710229061890" alt="Tiểu luận về nghệ thuật An Nam: Bức tranh tổng quát về mỹ thuật, kiến trúc, nghi lễ văn hoá Việt Nam" title="Tiểu luận về nghệ thuật An Nam: Bức tranh tổng quát về mỹ thuật, kiến trúc, nghi lễ văn hoá Việt Nam">
+                    <p class="text-bottom-content-5">Tiểu luận về nghệ thuật An Nam: Bức tranh tổng quát về mỹ thuật, kiến trúc, nghi lễ văn hoá Việt Nam</p>
+                </a>
+                <p>ANTD.VN - Bản dịch tiếng Việt tác phẩm "Tiểu luận về nghệ thuật An Nam" của tác giả Louis Bezacier...</p>
+                <p class="date-bottom-content-5">Thứ Ba, 12/03/2024</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- content 6 -->
+    <div class="content-6">
+        <!-- top-content-6 -->
+        <div class="top-content-6">
+            <h1>Các đối tác</h1>
+            <a href="" class="seen-more">
+                <h3>Xem thêm</h3>
+                <i class="fa fa-angle-right"></i>
+            </a>
+        </div>
+    
+        <!-- bottom content 6 -->
+        <div class="bottom-content-6">
+            <div class="item-content-6">
+                <a href="">
+                    <li><img src="https://bizweb.dktcdn.net/100/363/455/articles/screenshot-2023-09-26-175445.jpg?v=1695725699413" alt="Simon and Schuster" title="Simon and Schuster"></li>
+                 </a>
+                 <a href="">
+                <p class="color-text-content-6">Simon and Schuster</p>
+                 </a>
+            </div>
+            <div class="item-content-6">
+                <a href="">
+                    <li><img src="https://bizweb.dktcdn.net/100/363/455/articles/screenshot-2023-09-26-093035.jpg?v=1695695448453" alt="Pop Up Projects" title="Pop Up Projects"></li>
+                </a>
+                <a href="">
+                <p class="color-text-content-6">Pop Up Projects</p>
+                </a>
+            </div>
+            <div class="item-content-6">
+                <a href="">
+                    <li><img src="https://bizweb.dktcdn.net/100/363/455/articles/fireandwaterlogo-768x831.jpg?v=1695695322987" alt="HarperCollins Publishers" title="HarperCollins Publishers"></li>
+                </a>
+                <a href="">
+                <p class="color-text-content-6">HarperCollins Publishers</p>
+                </a>
+            </div>
+            <div class="item-content-6">
+                <a href="">
+                    <li><img src="https://bizweb.dktcdn.net/100/363/455/articles/logo-goethe-institut.png?v=1694484225040" alt="Viện Goethe Hà Nội" title="Viện Goethe Hà Nội"></li>
+                </a>
+                <a href="">
+                <p class="color-text-content-6">Viện Goethe Hà Nội</p>
+                </a>
+            </div>
+            <div class="item-content-6">
+                <a href="">
+                    <li><img src="https://bizweb.dktcdn.net/100/363/455/articles/logo.jpg?v=1694079471953" alt="Lotte Department Store Vietnam" title="Lotte Department Store Vietnam"></li>
+                 </a>
+                 <a href="">
+                <p class="color-text-content-6">Lotte Department Store Vietnam</p>
+                 </a>
+            </div>
+            <div class="item-content-6">
+                <a href="">
+                    <li><img src="https://bizweb.dktcdn.net/100/363/455/articles/penguin-random-house-svg.png?v=1694079204497" alt="Penguin Random House" title="Penguin Random House"></li>
+                </a>
+                <a href="">
+                <p class="color-text-content-6">Penguin Random House</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
     <footer class="footer">
         <div class="social-mk">
             <div class="grid wide">
@@ -241,19 +580,19 @@
                         </a>
                         <ul class="list-1">
                             <li class="list-content">
-                                <i class="fa-location-dot"></i>
+                                <i class="fa-light fa-location-dot icon-footer" style="margin-top: 14px;"></i>
                                 <p style="margin-bottom: 0; font-size: 14px;">Số 59, Đỗ Quang, Trung Hoà, Cầu Giấy, Hà Nội.</p>
                             </li>
                             <li class="list-content">
-                                <i class="fa-location-dot"></i>
+                                <i class="fa-light fa-envelope icon-footer"></i>
                                 <a href="" style="font-size: 14px;">info@nhanam.vn</a>
                             </li>
                             <li class="list-content">
-                                <i class="fa-location-dot"></i>
+                                <i class="fa-light fa-phone icon-footer"></i>
                                 <a href="" style="font-size: 14px;">02435146876</a>
                             </li>
                             <li class="list-content">
-                                <i class="fa-location-dot"></i>
+                                <i class="fa-light fa-mobile icon-footer"></i>
                                 <a href="" style="font-size: 14px;">0903244248</a>
                             </li>
                         </ul>
@@ -307,5 +646,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="login.js"></script>
 </body>
 </html>
