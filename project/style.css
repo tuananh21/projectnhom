@@ -8,8 +8,13 @@ body {
     line-height: 1.5;
 }
 
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
 .content-1 {
-    background-image: url(/img/background-banner.webp);
+    background-image: url(https://bizweb.dktcdn.net/100/363/455/themes/918830/assets/background-banner.jpg?1704690471681);
     padding: 30px 0 50px;
     background-size: cover;
 }
